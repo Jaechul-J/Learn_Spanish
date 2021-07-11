@@ -32,15 +32,70 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
 /* ----- HEADINGS ----- */
+h1, h2, h3 {
+    font-weight: 300; 
+    text-transform: uppercase;
+}
+
 h1 {
     margin: 0;
     margin-bottom: 30px;
     color: #fff;
-    font-size: 250%; 
-    text-transform: uppercase;
+    font-size: 250%;
+    word-spacing: 4px;
     letter-spacing: 1px;
-    word-spacing: 3px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 105%;
+    margin-bottom: 15px;
+} 
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ----- PARAGRAPHS -----*/
+.intro {
+     line-height: 145%;
+     width: 70%;
+     margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* ----- ICONS ----- */
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 20px;
 }
 
 /* ----- BUTTONS ----- */
@@ -101,6 +156,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-left: -30px;
 }
 
 .logo {
@@ -108,7 +164,8 @@ header {
     width: auto;
     float: left;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: -30px;
 }
 
 .main-nav {
