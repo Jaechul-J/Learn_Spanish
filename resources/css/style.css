@@ -183,7 +183,7 @@ header {
   height: 60px;
   width: auto;
   float: left;
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 /* Main nav */
@@ -237,6 +237,12 @@ header {
 /* --------------------------------------- */
 /* SECTION FEATURES */
 /* --------------------------------------- */
+
+.js--wp-1,
+.js--wp-2 {
+  opacity: 0;
+  animation-duration: 1s;
+}
 
 /* --------------------------------------- */
 /* HOW IT WORKS */

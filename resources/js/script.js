@@ -31,4 +31,32 @@ $(document).ready(function () {
       500
     );
   });
+
+  /* Animation on scroll */
+  $(".js--wp-1").waypoint(
+    (direction) => {
+      $(".js--wp-1").addClass("animate__animated animate__fadeIn");
+    },
+    {
+      offset: "70%",
+    }
+  );
+
+  $(".js--wp-2").waypoint(
+    (direction) => {
+      $(".js--wp-2").addClass("animate__animated animate__fadeInUp");
+    },
+    {
+      offset: "70%",
+    }
+  );
+
+  $(".js--wp-3").waypoint(
+    (direction) => {
+      $(".js--wp-3").addClass("animate__animated animate__pulse");
+    },
+    {
+      offset: "70%",
+    }
+  );
 });
