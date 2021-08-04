@@ -1,345 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendors/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <nav>
-            <div class="row">
-                <img src="resources/css/img/hola.jpg" alt="Spanish logo" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#">What is Hola?</a></li>
-                    <li><a href="#">Contents</a></li>
-                    <li><a href="#">Guides</a></li>
-                    <li><a href="#">Sign up</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="head-text-box">
-            <h1>What are you waiting for? <br> Learn Spanish now</h1>
-            <a class="btn btn-full" href="#">Join now</a>
-            <a class="btn btn-dim" href="#">Show me more</a>
+      <nav>
+        <div class="row">
+          <img
+            src="resources/css/img/hola.jpg"
+            alt="Spanish logo"
+            class="logo"
+            id="head-logo"
+          />
+          <ul class="main-nav">
+            <li><a href="#features">What is Hola?</a></li>
+            <li><a href="#steps">Steps</a></li>
+            <li><a href="#comments">Comments</a></li>
+            <li><a href="#plans">Sign up</a></li>
+          </ul>
         </div>
+      </nav>
+      <div class="head-text-box">
+        <h1>
+          What are you waiting for? <br />
+          Learn Spanish now
+        </h1>
+        <a class="btn btn-full js--scroll-to-plans" href="#">Join now</a>
+        <a class="btn btn-dim js--scroll-to-start" href="#">Show me more</a>
+      </div>
     </header>
 
     <!-- First section -->
 
-    <section class="section-features">
-        <div class="row">
-            <h2>Learn at your own pace</h2>
-            <p class="intro">
-                Hello, this is Hola. Hola is an online resource for you to start learning Spanish. We know you're
-                always busy. No time to invest on learning a new language. So let us take care of that. But only make
-                sure you persist a regular routine.
-            </p>
-        </div>
+    <section class="section-features js--section-features" id="features">
+      <div class="row">
+        <h2>Learn at your own pace</h2>
+        <p class="intro">
+          Hello, this is Hola. Hola is an online resource for you to start
+          learning Spanish. We know you're always busy. No time to invest on
+          learning a new language. So let us take care of that. But only make
+          sure you persist a regular routine.
+        </p>
+      </div>
 
-        <div class="row">
-            <div class="col span-1-of-4 box">
-                <ion-icon name="globe-outline" class="icon-big"></ion-icon>
-                <h3>Ubiquitous</h3>
-                <p>
-                    You can learn anytime, anywhere you feel like it. No pressure. Although you persistency of
-                    learning is all it takes.
-                </p>
-            </div>
-            <div class="col span-1-of-4 box">
-                <ion-icon name="bar-chart-outline" class="icon-big"></ion-icon>
-                <h3>Challenge yourself</h3>
-                <p>
-                    Perhaps the best way to learn is through testing your knowledge. We provide daily challenges
-                    that
-                    will be accumulated throughout the week. It helps with your long-term memory on the material.
-                </p>
-            </div>
-            <div class="col span-1-of-4 box">
-                <ion-icon name="person-outline" class="icon-big"></ion-icon>
-                <h3>Customized learning</h3>
-                <p>
-                    Based on the score you get on your daily challenges, we provide feedback on what you should be
-                    more
-                    focused on learning. You are welcome to review the material and rechallenge.
-                </p>
-            </div>
-            <div class="col span-1-of-4 box">
-                <ion-icon name="trail-sign-outline" class="icon-big"></ion-icon>
-                <h3>Contents of choice</h3>
-                <p>
-                    We don't limit the contents you learn. You can choose to learn vocabs, grammars or dialogue...
-                    any
-                    many more.
-                </p>
-            </div>
+      <div class="row">
+        <div class="col span-1-of-4 box">
+          <ion-icon name="globe-outline" class="icon-big"></ion-icon>
+          <h3>Ubiquitous</h3>
+          <p>
+            You can learn anytime, anywhere you feel like it. No pressure.
+            Although you persistency of learning is all it takes.
+          </p>
         </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="bar-chart-outline" class="icon-big"></ion-icon>
+          <h3>Challenge yourself</h3>
+          <p>
+            Perhaps the best way to learn is through testing your knowledge. We
+            provide daily challenges that will be accumulated throughout the
+            week. It helps with your long-term memory on the material.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="person-outline" class="icon-big"></ion-icon>
+          <h3>Customized learning</h3>
+          <p>
+            Based on the score you get on your daily challenges, we provide
+            feedback on what you should be more focused on learning. You are
+            welcome to review the material and rechallenge.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="trail-sign-outline" class="icon-big"></ion-icon>
+          <h3>Contents of choice</h3>
+          <p>
+            We don't limit the contents you learn. You can choose to learn
+            vocabs, grammars or dialogue... any many more.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Steps section -->
 
-    <section class="section-steps">
-        <div class="row">
-            <h2>HOW IT WORKS &mdash; Simple as 1, 2, 3</h2>
+    <section class="section-steps" id="steps">
+      <div class="row">
+        <h2>HOW IT WORKS &mdash; Simple as 1, 2, 3</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 steps-box">
+          <img
+            src="resources/css/img/hola.jpg"
+            alt="hola img"
+            class="app-symbol"
+          />
         </div>
-        <div class="row">
-            <div class="col span-1-of-2 steps-box">
-                <img src="resources/css/img/hola.jpg" alt="hola img" class="app-symbol">
-            </div>
-            <div class="col span-1-of-2 steps-box">
-                <div class="work-steps">
-                    <div>1</div>
-                    <p>Choose the sucscription plan that best fits your needs and sign up today.</p>
-                </div>
-                <div class="work-steps">
-                    <div>2</div>
-                    <p>Access the app and take your Spanish one step further.</p>
-                </div>
-                <div class="work-steps">
-                    <div>3</div>
-                    <p>Keep learning and present your Spanish skills to the world.</p>
-                </div>
+        <div class="col span-1-of-2 steps-box">
+          <div class="work-steps">
+            <div>1</div>
+            <p>
+              Choose the sucscription plan that best fits your needs and sign up
+              today.
+            </p>
+          </div>
+          <div class="work-steps">
+            <div>2</div>
+            <p>Access the app and take your Spanish one step further.</p>
+          </div>
+          <div class="work-steps">
+            <div>3</div>
+            <p>Keep learning and present your Spanish skills to the world.</p>
+          </div>
 
-                <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="AppStore Button"></a>
-                <a href="#" class="btn-app"><img src="resources/img/download-app-android.png"
-                        alt="PlayStore Button"></a>
-            </div>
+          <a href="#" class="btn-app"
+            ><img src="resources/img/download-app.svg" alt="AppStore Button"
+          /></a>
+          <a href="#" class="btn-app"
+            ><img
+              src="resources/img/download-app-android.png"
+              alt="PlayStore Button"
+          /></a>
         </div>
+      </div>
     </section>
 
     <!-- Comments section -->
 
-    <section class="section-comments">
-        <div class="row">
-            <h2>Users' experience and comments</h2>
+    <section class="section-comments" id="comments">
+      <div class="row">
+        <h2>Users' experience and comments</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <blockquote>
+            I cannot believe the amount of Spanish I picked up from using this
+            app for merely 3 months. I never dared to start learning a new
+            language, but I would describe this Hola as a lifechanger.
+            <cite
+              ><img
+                src="resources/img/katalk.png"
+                alt="profile picture"
+              />Jaechul Jung</cite
+            >
+          </blockquote>
         </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <blockquote>
-                    I cannot believe the amount of Spanish I picked up from using this app for merely 3 months. I never
-                    dared to start learning a new language, but I would describe this Hola as a lifechanger.
-                    <cite><img src="resources/img/katalk.png" alt="profile picture">Jaechul Jung</cite>
-                </blockquote>
-            </div>
-            <div class="col span-1-of-3">
-                <blockquote>
-                    The structure of this app is more geared towards beginners. I wouldn't recommend this app to those
-                    who
-                    are in the intermediate level of Spanish, but if you are completely new, it's worth a shot.
-                    <cite><img src="resources/img/katalk.png" alt="profile picture">Harry Kane</cite>
-                </blockquote>
-            </div>
-            <div class="col span-1-of-3">
-                <blockquote>
-                    I was looking for this kind of app. Not only do I have a reminder to study at least 10 minutes a
-                    day,
-                    but I keep pushing myself away from watching Youtube videos before going to bed.
-                    <cite><img src="resources/img/katalk.png" alt="profile picture">Tom Cruz</cite>
-                </blockquote>
-            </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            The structure of this app is more geared towards beginners. I
+            wouldn't recommend this app to those who are in the intermediate
+            level of Spanish, but if you are completely new, it's worth a shot.
+            <cite
+              ><img src="resources/img/katalk.png" alt="profile picture" />Harry
+              Kane</cite
+            >
+          </blockquote>
         </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            I was looking for this kind of app. Not only do I have a reminder to
+            study at least 10 minutes a day, but I keep pushing myself away from
+            watching Youtube videos before going to bed.
+            <cite
+              ><img src="resources/img/katalk.png" alt="profile picture" />Tom
+              Cruz</cite
+            >
+          </blockquote>
+        </div>
+      </div>
     </section>
 
     <!-- Subscription section -->
-    <section class="section-plans">
-        <div class="row">
-            <h2>Get started learning today</h2>
+    <section class="section-plans js--section-plans" id="plans">
+      <div class="row">
+        <h2>Get started learning today</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Starter</h3>
+              <p class="plan-price">$2 <span>/ month</span></p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Monthly access
+                </li>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Live conversation 1hr / week
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-dim">Sign up now</a>
+            </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Starter</h3>
-                        <p class="plan-price">$2 <span>/ month</span></p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Monthly access
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Live conversation 1hr /
-                                week
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-dim">Sign up now</a>
-                    </div>
-                </div>
+        <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Pro</h3>
+              <p class="plan-price">$5 <span>/ month</span></p>
             </div>
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Pro</h3>
-                        <p class="plan-price">$5 <span>/ month</span> </p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Monthly access
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Live conversation 1hr /
-                                week
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Access to real-world
-                                Spanish
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-dim">Sign up now</a>
-                    </div>
-                </div>
+            <div>
+              <ul>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Monthly access
+                </li>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Live conversation 1hr / week
+                </li>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Access to real-world Spanish
+                </li>
+              </ul>
             </div>
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Premium</h3>
-                        <p class="plan-price">$19</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Lifetime access
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Live conversation 1hr /
-                                week
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Access to real-world
-                                Spanish
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline" class="check-icon"></ion-icon>Spanish Interview Prep
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-full">Sign up now</a>
-                    </div>
-                </div>
+            <div>
+              <a href="#" class="btn btn-dim">Sign up now</a>
             </div>
+          </div>
         </div>
+        <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Premium</h3>
+              <p class="plan-price">$19</p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Lifetime access
+                </li>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Live conversation 1hr / week
+                </li>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Access to real-world Spanish
+                </li>
+                <li>
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="check-icon"
+                  ></ion-icon
+                  >Spanish Interview Prep
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full">Sign up now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--Contact section-->
     <section class="section-form">
-        <div class="row">
-            <h2>We're happy to hear from you</h2>
-        </div>
-        <div class="row">
-            <form method="POST" action="#" class="contact-form">
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" name="name" id="name" placeholder="Your name" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="email">E-mail</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="email" name="email" id="email" placeholder="Your e-mail" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>How did you find us?</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <select name="find-us" id="find-us">
-                            <option value="friends" selected>Friends</option>
-                            <option value="search">Search Engine</option>
-                            <option value="ad">Advertisement</option>
-                            <option value="other">Others</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Newsletter?</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="checkbox" name="news" id="news" checked> Yes, please
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Drop us a line</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message"></textarea>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="submit" value="Submit">
-                    </div>
-                </div>
-            </form>
-        </div>
+      <div class="row">
+        <h2>We're happy to hear from you</h2>
+      </div>
+      <div class="row">
+        <form method="POST" action="#" class="contact-form">
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="name">Name</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="email">E-mail</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your e-mail"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>How did you find us?</label>
+            </div>
+            <div class="col span-2-of-3">
+              <select name="find-us" id="find-us">
+                <option value="friends" selected>Friends</option>
+                <option value="search">Search Engine</option>
+                <option value="ad">Advertisement</option>
+                <option value="other">Others</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Newsletter?</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="checkbox" name="news" id="news" checked /> Yes,
+              please
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Drop us a line</label>
+            </div>
+            <div class="col span-2-of-3">
+              <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </form>
+      </div>
     </section>
 
     <!--Footer section-->
     <footer>
-        <div class="row">
-            <div class="col span-1-of-2">
-                <ul class="footer-nav">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">IOS App</a></li>
-                    <li><a href="#">Android App</a></li>
-                </ul>
-            </div>
-            <div class="col span-1-of-2">
-                <ul class="social-links">
-                    <li><a href="#">
-                            <ion-icon name="logo-facebook" id="facebook"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
-                            <ion-icon name="logo-twitter" id="twitter"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
-                            <ion-icon name="logo-google" id="google"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
-                            <ion-icon name="logo-instagram" id="insta"></ion-icon>
-                        </a></li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="col span-1-of-2">
+          <ul class="footer-nav">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">IOS App</a></li>
+            <li><a href="#">Android App</a></li>
+          </ul>
         </div>
-        <div class="row">
-            <p>
-                Copyright &copy; 2021 by Hola. All rights reserved.
-            </p>
+        <div class="col span-1-of-2">
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <ion-icon name="logo-facebook" id="facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-twitter" id="twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-google" id="google"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-instagram" id="insta"></ion-icon>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="row">
+        <p>Copyright &copy; 2021 by Hola. All rights reserved.</p>
+      </div>
     </footer>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
-    </script>
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+  </body>
 </html>
